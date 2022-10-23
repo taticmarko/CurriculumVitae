@@ -32,6 +32,16 @@ html::-webkit-scrollbar-thumb{
   border-radius: 50px;
 }
 
+.card {
+  animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+  100% {
+      transform: rotateZ(360deg);
+  }
+}
+
 .title{
   font-size: 25px;
   color:var(--blue);
